@@ -11,7 +11,7 @@ end
 def hows_the_weather(temperature)
   if temperature > 85
     "It's too dang hot out there!"
-  elsif temperature > 40 && temperature < 60
+  elsif temperature >= 40 && temperature <= 60
     "It's a little chilly out there!"
   elsif temperature < 40 
     "It's brisk out there!"
